@@ -19,13 +19,15 @@ function App() {
       <input type= "text" onChange={(event) => setQuery(event.target.value)}/>
       <button onClick={search}>Search</button>
       </div>
-        {searchData.map((img, key) => (
+      <div className="container">
+        {searchQ ? searchData.map((img, key) => (
           <Image src={img.urls.thumb} key={key} />
-        ))}
-        {data.map((img, key) => (
+        )) : 
+        data.map((img, key) => (
           <Image src={img.urls.thumb} key={key} />
         ))}
     </div>
+  </div>
   );
 }
 
