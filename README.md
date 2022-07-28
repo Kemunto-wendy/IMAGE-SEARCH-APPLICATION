@@ -17,7 +17,7 @@ The open source library ecosysystem used will be:<br>
 You can git clone my ssh key from my repository git@github.com:Kemunto-wendy/IMAGE-SEARCH-APPLICATION.git to access it
 
 ####  GITHUB LINK
-https://github.com/Kemunto-wendy/ONLINE-PHARMACY-APPLICATION.git
+https://kemunto-wendy.github.io/IMAGE-SEARCH-APPLICATION/
 
 #####  AUTHORS
 JOY KEMUNTO
