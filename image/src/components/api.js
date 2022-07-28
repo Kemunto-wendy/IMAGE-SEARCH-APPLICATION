@@ -7,6 +7,7 @@ function LoadImages(){
     .then((data) =>{
         console.log(data)
     })
+    
 }
 
 export {LoadImages}

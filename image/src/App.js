@@ -3,7 +3,8 @@ import './App.css';
 import {LoadImages} from "./components/api"
 
 function App() {
-  LoadImages()
+  const data = LoadImages()
+  console.log(data)
   return (
     <div className="App">
     Hello world
