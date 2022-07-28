@@ -11,6 +11,7 @@ function App() {
   const search = () => {
     setSearch(query)
   }
+
   const searchData = SearchImages(query)
   console.log(SearchImages(searchQ))
   return (
@@ -39,5 +40,5 @@ function App() {
   </div>
   );
 }
-window.print("Print the displayed image")
+
 export default App;
