@@ -1,3 +1,4 @@
+import axios from "axios";
 import{useState, useEffect} from "react"
 import './App.css';
 import {LoadImages, SearchImages} from "./components/api"
@@ -40,7 +41,7 @@ function App() {
         <Contact />
     </div>
     <button onClick ="download()">Download image</button>
-  </div>
+    </div>
   );
 }
 
