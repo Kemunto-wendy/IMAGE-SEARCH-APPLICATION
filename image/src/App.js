@@ -2,15 +2,17 @@ import{useState, useEffect} from "react"
 import './App.css';
 import {LoadImages, SearchImages} from "./components/api"
 import Image from "./components/image"
+
 function App() {
   const [query, setQuery] = useState()
-  const [search, setSearch] = useState()
+  const [searchQ, setSearch] = useState()
   const data = LoadImages()
   console.log(query)
   const search = () => {
     setSearch(query)
   }
-  console.log(SearchImages(query))
+  const searchData = SearchImages(query)
+  console.log(SearchImages(searchQ))
   return (
     <div className="App">
     <div>
