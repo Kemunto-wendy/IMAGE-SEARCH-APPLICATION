@@ -21,7 +21,7 @@ function App() {
       <ul>
           <li><a href="#">CONTACT ME</a></li>
       </ul>
-          <a href="#" class="btn">Commentary</a>
+          <a href="#" class="btn">Nairobi, KE</a>
   </nav>
       </div>
     <div>
