@@ -15,6 +15,15 @@ function App() {
   console.log(SearchImages(searchQ))
   return (
     <div className="App">
+      <div className="header">
+      <nav>
+      <h2 class="logo">ONLINE CBC KIDS <span> IMAGE SEARCH </span></h2>
+      <ul>
+          <li><a href="#">CONTACT ME</a></li>
+      </ul>
+          <a href="#" class="btn">Commentary</a>
+  </nav>
+      </div>
     <div>
       <input type= "text" onChange={(event) => setQuery(event.target.value)}/>
       <button onClick={search}>Search</button>
@@ -30,5 +39,5 @@ function App() {
   </div>
   );
 }
-
+window.print("Print the displayed image")
 export default App;

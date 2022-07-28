@@ -1,7 +1,7 @@
 # PROJECT TITLE
-ONLINE IMAGE SEARCH APPLICATION
+ONLINE CBC KIDS IMAGE SEARCH APPLICATION
 ## PROJECT DESCRIPTION
-My project is an online image search which will be used to search for available pictures which might be clothing or any other available photo.
+My project is a kids hub where they are able to search for pictorials/ images for their assignments instead of googling them directly on chrome search which will take time for them to review all the displayed images. I have used and API from unsplash 
 This project was bootstrapped with Create React App.
 ### DEPENDENCIES
 The prerequisites used for my language will be:<br>
