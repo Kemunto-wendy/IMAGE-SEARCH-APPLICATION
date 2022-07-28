@@ -1,6 +1,7 @@
 import{useState, useEffect} from "react"
 import './App.css';
 import {LoadImages, SearchImages} from "./components/api"
+import Contact from "./components/contact/contact";
 import Image from "./components/image"
 
 function App() {
@@ -36,7 +37,9 @@ function App() {
         data.map((img, key) => (
           <Image src={img.urls.thumb} key={key} />
         ))}
+        <Contact />
     </div>
+    <button onClick ="download()">Download image</button>
   </div>
   );
 }
