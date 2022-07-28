@@ -1,5 +1,6 @@
 import{useState, useEffect} from "react"
 import axios from "axios"
+const count = 1
 
 function LoadImages(){
     const [state, setState] = useState([])
@@ -8,7 +9,7 @@ function LoadImages(){
         .then((data) =>{
             setState(data.data)  
     })
-    })
+    }, [count])
     return state
 }
 
