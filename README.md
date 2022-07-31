@@ -1,7 +1,7 @@
 # PROJECT TITLE
 ONLINE CBC KIDS IMAGE SEARCH APPLICATION
 ## PROJECT DESCRIPTION
-My project is a kids hub where they are able to search for pictorials/ images for their assignments instead of googling them directly on chrome search which will take time for them to review all the displayed images. I have used and API from unsplash 
+Finally kids will be able to learn images and know the difference from a simpler site. My project is a kids hub where they are able to search for pictorials/ images for their assignments instead of googling them directly on chrome search which will take time for them to review all the displayed images. I have used and API from unsplash. With this project kids will be able to learn and understand what an image looks like and whats its called because currently the Competency Based Curriculum (CBC) consist of 2-6-3-3-3 education cycle. Every learner shall transition through a minimum of 17 levels, every level as period of 1 year. The KICD has grouped them into 4 general categories: Early Year Education (Pre-Primary & Lower Primary)
 This project was bootstrapped with Create React App.
 ### DEPENDENCIES
 The prerequisites used for my language will be:<br>
