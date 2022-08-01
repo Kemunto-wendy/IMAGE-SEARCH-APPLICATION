@@ -76,3 +76,11 @@ nav ul li a:hover {
 .btn:hover {
   transform: scale(1.2);
 }
+
+button{
+  width: 5%;
+  padding: 10px;
+  background: purple;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
